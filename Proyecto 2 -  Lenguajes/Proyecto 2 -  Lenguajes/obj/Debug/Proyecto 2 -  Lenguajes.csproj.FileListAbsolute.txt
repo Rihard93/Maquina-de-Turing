@@ -1,0 +1,11 @@
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\bin\Debug\Proyecto 2 -  Lenguajes.exe.config
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\bin\Debug\Proyecto 2 -  Lenguajes.exe
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\bin\Debug\Proyecto 2 -  Lenguajes.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Properties.Resources.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.csproj.GenerateResource.cache
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.exe
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.pdb
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Form1.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_1.resources
