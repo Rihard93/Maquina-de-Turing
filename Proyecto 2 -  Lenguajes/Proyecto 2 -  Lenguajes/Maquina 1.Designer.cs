@@ -161,7 +161,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(616, 202);
+            this.label3.Location = new System.Drawing.Point(598, 202);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 19);
             this.label3.TabIndex = 11;
@@ -171,7 +171,7 @@
             // 
             this.Aceptacion.AutoSize = true;
             this.Aceptacion.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Aceptacion.Location = new System.Drawing.Point(616, 234);
+            this.Aceptacion.Location = new System.Drawing.Point(598, 234);
             this.Aceptacion.Name = "Aceptacion";
             this.Aceptacion.Size = new System.Drawing.Size(36, 19);
             this.Aceptacion.TabIndex = 12;

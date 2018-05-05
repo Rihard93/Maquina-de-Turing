@@ -58,7 +58,7 @@ namespace Proyecto_2____Lenguajes
                         Cabeza[CCabeza] = 'β';
                         CCabeza++;
                         Cabeza[CCabeza] = '↓';
-                        EstadoAct.Text = "q1";
+                        EstadoAct.Text = "q5";
                         N_Pasos.Text = Pasos.ToString();
                         Cinta.Text = new string(Caracteres);
                         Cabezal.Text = new string(Cabeza);
@@ -73,7 +73,7 @@ namespace Proyecto_2____Lenguajes
                         Cabeza[CCabeza] = 'β';
                         CCabeza++;
                         Cabeza[CCabeza] = '↓';
-                        EstadoAct.Text = "q1";
+                        EstadoAct.Text = "q8";
                         N_Pasos.Text = Pasos.ToString();
                         Cinta.Text = new string(Caracteres);
                         Cabezal.Text = new string(Cabeza);
@@ -146,6 +146,7 @@ namespace Proyecto_2____Lenguajes
                         N_Pasos.Text = Pasos.ToString();
                         Cinta.Text = new string(Caracteres);
                         Cabezal.Text = new string(Cabeza);
+                        EstadoAct.Text = "q11";
                         C = Caracteres[Contador];
                         Maquina("q11", C);
                     }
@@ -352,12 +353,242 @@ namespace Proyecto_2____Lenguajes
                         Cinta.Text = new string(Caracteres);
                         Cabezal.Text = new string(Cabeza);
                         C = Caracteres[Contador];
+                        EstadoAct.Text = "q11";
                         Maquina("q11", C);
                     }
                     else
                     {
                         Aceptacion.Text = "No Aceptada";
                     }
+                    break;
+
+                case "q6":
+                    if (C == 'a')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q6";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q6", C);
+                    }
+                    else if (C == 'b')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q6";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q6", C);
+                    }
+                    else if (C == 'c')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q6";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q6", C);
+                    }
+                    else if (C == 'β')
+                    {
+                        Pasos++;
+                        Contador--;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza--;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q7";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q7", C);
+                    }
+                    else
+                    {
+                        Aceptacion.Text = "No Aceptada";
+                    }
+                    break;
+
+                case "q7":
+                    if (C == 'b')
+                    {
+                        Pasos++;
+                        Caracteres[Contador] = 'β';
+                        Contador--;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza--;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q4";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q4", C);
+                    }
+                    else
+                    {
+                        Aceptacion.Text = "No Aceptada";
+                    }
+                    break;
+
+                case "q8":
+                    if (C == 'a')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'b')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'c')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'β')
+                    {
+                        Pasos++;
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        EstadoAct.Text = "q11";
+                        C = Caracteres[Contador];
+                        Maquina("q11", C);
+                    }
+                    else
+                    {
+                        Aceptacion.Text = "No Aceptada";
+                    }
+                    break;
+
+                case "q9":
+                    if (C == 'a')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'b')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'c')
+                    {
+                        Pasos++;
+                        Contador++;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza++;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q9";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q9", C);
+                    }
+                    else if (C == 'β')
+                    {
+                        Pasos++;
+                        Contador--;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza--;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q10";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q10", C);
+                    }
+                    else
+                    {
+                        Aceptacion.Text = "No Aceptada";
+                    }
+                    break;
+
+                case "q10":
+                    if (C == 'c')
+                    {
+                        Pasos++;
+                        Caracteres[Contador] = 'β';
+                        Contador--;
+                        Cabeza[CCabeza] = 'β';
+                        CCabeza--;
+                        Cabeza[CCabeza] = '↓';
+                        EstadoAct.Text = "q4";
+                        N_Pasos.Text = Pasos.ToString();
+                        Cinta.Text = new string(Caracteres);
+                        Cabezal.Text = new string(Cabeza);
+                        C = Caracteres[Contador];
+                        Maquina("q4", C);
+                    }
+                    break;
+
+                case "q11":                    
+                    Aceptacion.Text = "Cadena Aceptada";                    
                     break;
             }
         }
@@ -381,6 +612,8 @@ namespace Proyecto_2____Lenguajes
                 }
                 else
                 {
+                    EMT1.Enabled = false;
+                    btnIngreso.Enabled = false;
                     btnStart.Enabled = true;
                 }
             }
