@@ -7,5 +7,9 @@ C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2
 C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.csproj.CoreCompileInputs.cache
 C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.exe
 C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto 2 -  Lenguajes.pdb
-C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Form1.resources
 C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_1.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_3.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_4.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Menu.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_5.resources
+C:\Users\Ricardo\Documents\Visual Studio 2017\Proyecto 2 -  Lenguajes\Proyecto 2 -  Lenguajes\obj\Debug\Proyecto_2____Lenguajes.Maquina_2.resources

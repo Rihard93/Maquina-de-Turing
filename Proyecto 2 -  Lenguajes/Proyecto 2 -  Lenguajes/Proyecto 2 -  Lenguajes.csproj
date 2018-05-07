@@ -45,11 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Maquina 2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Maquina 2.Designer.cs">
+      <DependentUpon>Maquina 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Maquina 1.cs">
       <SubType>Form</SubType>
@@ -57,13 +63,43 @@
     <Compile Include="Maquina 1.Designer.cs">
       <DependentUpon>Maquina 1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maquina 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquina 3.Designer.cs">
+      <DependentUpon>Maquina 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquina 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquina 4.Designer.cs">
+      <DependentUpon>Maquina 4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquina 5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquina 5.Designer.cs">
+      <DependentUpon>Maquina 5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Maquina 2.resx">
+      <DependentUpon>Maquina 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Maquina 1.resx">
       <DependentUpon>Maquina 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquina 3.resx">
+      <DependentUpon>Maquina 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquina 4.resx">
+      <DependentUpon>Maquina 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquina 5.resx">
+      <DependentUpon>Maquina 5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
