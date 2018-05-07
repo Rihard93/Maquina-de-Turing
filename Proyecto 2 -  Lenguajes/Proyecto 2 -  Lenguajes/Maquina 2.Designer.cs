@@ -32,7 +32,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.N_Pasos = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.EstadoAct = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Cabezal = new System.Windows.Forms.Label();
+            this.Cinta = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.btnIngreso = new System.Windows.Forms.Button();
@@ -47,7 +50,7 @@
             this.Aceptacion.Location = new System.Drawing.Point(600, 240);
             this.Aceptacion.Name = "Aceptacion";
             this.Aceptacion.Size = new System.Drawing.Size(36, 19);
-            this.Aceptacion.TabIndex = 22;
+            this.Aceptacion.TabIndex = 25;
             this.Aceptacion.Text = "N/A";
             // 
             // label3
@@ -57,7 +60,7 @@
             this.label3.Location = new System.Drawing.Point(600, 208);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 19);
-            this.label3.TabIndex = 21;
+            this.label3.TabIndex = 24;
             this.label3.Text = "Estado Cadena:";
             // 
             // N_Pasos
@@ -67,7 +70,7 @@
             this.N_Pasos.Location = new System.Drawing.Point(305, 240);
             this.N_Pasos.Name = "N_Pasos";
             this.N_Pasos.Size = new System.Drawing.Size(18, 19);
-            this.N_Pasos.TabIndex = 20;
+            this.N_Pasos.TabIndex = 23;
             this.N_Pasos.Text = "0";
             // 
             // label4
@@ -77,8 +80,18 @@
             this.label4.Location = new System.Drawing.Point(305, 208);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 19);
-            this.label4.TabIndex = 19;
+            this.label4.TabIndex = 22;
             this.label4.Text = "Pasos:";
+            // 
+            // EstadoAct
+            // 
+            this.EstadoAct.AutoSize = true;
+            this.EstadoAct.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EstadoAct.Location = new System.Drawing.Point(16, 240);
+            this.EstadoAct.Name = "EstadoAct";
+            this.EstadoAct.Size = new System.Drawing.Size(36, 19);
+            this.EstadoAct.TabIndex = 21;
+            this.EstadoAct.Text = "N/A";
             // 
             // label2
             // 
@@ -87,8 +100,28 @@
             this.label2.Location = new System.Drawing.Point(16, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 19);
-            this.label2.TabIndex = 18;
+            this.label2.TabIndex = 20;
             this.label2.Text = "Estado:";
+            // 
+            // Cabezal
+            // 
+            this.Cabezal.AutoSize = true;
+            this.Cabezal.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cabezal.Location = new System.Drawing.Point(16, 112);
+            this.Cabezal.Name = "Cabezal";
+            this.Cabezal.Size = new System.Drawing.Size(29, 33);
+            this.Cabezal.TabIndex = 19;
+            this.Cabezal.Text = "↓";
+            // 
+            // Cinta
+            // 
+            this.Cinta.AutoSize = true;
+            this.Cinta.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cinta.Location = new System.Drawing.Point(16, 145);
+            this.Cinta.Name = "Cinta";
+            this.Cinta.Size = new System.Drawing.Size(29, 33);
+            this.Cinta.TabIndex = 18;
+            this.Cinta.Text = "β";
             // 
             // btnExit
             // 
@@ -101,6 +134,7 @@
             this.btnExit.TabIndex = 17;
             this.btnExit.Text = "Menu Principal";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnStart
             // 
@@ -112,6 +146,7 @@
             this.btnStart.TabIndex = 16;
             this.btnStart.Text = "Iniciar Maquina de Turing";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnIngreso
             // 
@@ -122,6 +157,7 @@
             this.btnIngreso.TabIndex = 15;
             this.btnIngreso.Text = "Ingresar Cadena";
             this.btnIngreso.UseVisualStyleBackColor = true;
+            this.btnIngreso.Click += new System.EventHandler(this.btnIngreso_Click);
             // 
             // EMT1
             // 
@@ -151,7 +187,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.N_Pasos);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.EstadoAct);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.Cabezal);
+            this.Controls.Add(this.Cinta);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.btnIngreso);
@@ -170,7 +209,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label N_Pasos;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label EstadoAct;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Cabezal;
+        private System.Windows.Forms.Label Cinta;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnIngreso;
